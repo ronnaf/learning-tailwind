@@ -115,7 +115,7 @@ ProfileCard.propTypes = {
 const GridItem = (props) => {
   return (
     <div className='p-4'>
-      <div>{props.title}</div>
+      <div className='text-sm text-gray-700'>{props.title}</div>
       <div>{props.subtitle}</div>
     </div>
   );
